@@ -5,7 +5,9 @@ Requirements:
 Nibabel
 Nilearn
 
-So, we will face 3D data right here, which we also call voxel (volume pixel). More about voxel is well explained in http://nipy.org/nipy/devel/code_discussions/understanding_affines.html
+So, we will have 3D data right here. From the 3D image, we will have three axis coordinate system where for each of them holds three values (RGB). The values will give us a show how that one voxel look like.
+
+To know more about voxel and real world mappings, you can check this here http://nipy.org/nipy/devel/code_discussions/understanding_affines.html
 
 As explained from the link above, in 3D MRI images, we use Real World Coordinates. Real-world coordinates are coordinates where the values refer to real-world axes. 
 
