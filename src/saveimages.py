@@ -5,8 +5,8 @@ import numpy as np
 import cv2 
 from matplotlib import pyplot as plt 
 
-hgg_path = "D:/JCM ELEKTRO ITS/Disertasi/Datasets/Brain Tumor/Pre-operative_TCGA_GBM_NIfTI_and_Segmentations"
-lgg_path = "D:/JCM ELEKTRO ITS/Disertasi/Datasets/Brain Tumor/Pre-operative_TCGA_LGG_NIfTI_and_Segmentations"
+hgg_path = "D:/Datasets/Brain Tumor/Pre-operative_TCGA_GBM_NIfTI_and_Segmentations"
+lgg_path = "D:/Datasets/Brain Tumor/Pre-operative_TCGA_LGG_NIfTI_and_Segmentations"
 
 tumorGrade = "LGG" #NOTE: Change the path to save images of LGG or HGG
 modality = "_t2" #NOTE: Choose, either "t2", "t1", or "flair". DONT ERASE THE UNDERSCORE "_"
