@@ -2,7 +2,7 @@
 
 There are two steps that will be done here, they are getting the brain tumor images and masks automatically, and then multi-class segmentation for brain tumor can be done.
 
-# 1. Steps to get Brain Tumor images and its masks automatically from niftii data of TCGA and BraTS datasets-like. 
+# 1. Automatically Saving Brain Tumor 2D Image Slices for Brain Tumor Segmentation and Classification from BraTS Datasets-like
 
 <b>Requirements:</b>
 <br>Nibabel<br>
@@ -34,6 +34,6 @@ After getting all the data, split them into train and test. And then, we will ha
 
 The brain tumor segmentation using U-Net is in 
 
-```src/Unet_Brain_Multiclass.ipynb ```
+```src/braintumor_multiclass_seg_unet.ipynb ```
 
 From this process, we can get validation accuracy of 87.37% which is not really bad for a multiclass segmentation, but still far from perfect
