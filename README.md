@@ -2,7 +2,7 @@
 
 There are two steps that will be done here, they are getting the brain tumor images and masks automatically, and then multi-class segmentation for brain tumor can be done.
 
-# 1. Automatically Saving Brain Tumor 2D Image Slices for Brain Tumor Segmentation and Classification from BraTS Datasets-like
+# 1. Automatically Saving Brain Tumor 2D Image Slices from Nifti Data for Brain Tumor Segmentation and Classification from BraTS Datasets-like
 
 <b>Requirements:</b>
 <br>Nibabel<br>
